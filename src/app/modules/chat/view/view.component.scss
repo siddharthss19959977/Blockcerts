@@ -1,0 +1,28 @@
+.main
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.charts
+{
+    width: 19%;
+    height: 650px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+
+.links
+{
+    width: 79%;
+    height: 650px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;    
+}

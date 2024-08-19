@@ -1,0 +1,33 @@
+<div class="main">
+    <button class="close" color="primary" (click)="closeDialog()">X</button>
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <h3 style="text-align: center;">Add Roles</h3>
+
+        <h3>Name</h3>
+        <mat-form-field>
+            <input matInput class="name" required="Name" name="fname" formControlName="Name">
+        </mat-form-field>
+
+        <h3>Description</h3>
+        <mat-form-field>
+            <input matInput class="description" required="Description" name="description" formControlName="Description">
+        </mat-form-field>
+
+        <h3>Based On</h3>
+        <mat-form-field>
+                <mat-label>Select a value</mat-label>
+                <mat-select class="basedon" required="BasedOn" formControlName="BasedOn">
+                    <mat-option value="one">1</mat-option>
+                    <mat-option value="two">2</mat-option>
+                    <mat-option value="three">3</mat-option>
+                    <mat-option value="four">4</mat-option>
+                </mat-select>
+        </mat-form-field>
+
+        <div class="button">
+            <button mat-button type="reset" class="cancel"  color="primary">Cancel</button>
+            <button mat-button type="submit" class="ok"  color="primary">Ok</button>
+        </div>
+        
+    </form>
+</div>

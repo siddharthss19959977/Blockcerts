@@ -1,0 +1,197 @@
+.main
+{
+    width: 1000px;
+    height: 600px;
+}
+
+.parent
+{
+    height: 100%;
+    width: 100%;
+}
+
+.h3,input,.se
+{
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.firstcheck
+{
+    margin-left: 1%;
+    margin-top: 0;
+}
+
+.child
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+input
+{
+    width: 98%;
+    height: 35px;
+}
+
+.select
+{
+    margin-left: 4%;
+    width: 100%;
+}
+
+.one
+{
+    width: 100%;
+}
+
+// upto the create activity and the lower components
+
+.elements
+{
+    width: auto;
+    margin-top: 4px;
+    margin-right: 4px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.cancel
+{
+    background-color: lightgrey;
+    margin: 4px 3px;
+}
+
+.create
+{
+    background-color: yellowgreen;
+    margin: 4px 3px;
+}
+
+.secondcheck
+{
+    margin: 4px 3px;
+}
+
+// for the buttons on the lower section
+.div
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    max-height: 50vh;
+    overflow: auto;
+}
+
+.div1
+{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.wsdiv1
+{
+    width: 100%;
+    height: 65px;
+}
+
+.wsdiv1select
+{
+    width: 100%;
+    height: 100%;
+}
+
+.prdiv1
+{
+    width: 100%;
+    height: 65px;
+}
+
+.prdiv1select
+{
+    width: 100%;
+    height: 100%;
+}
+
+.sicdiv2
+{
+    width: 100%;
+    height: 65px;
+}
+
+.sicdiv2select
+{
+    width: 100%;
+    height: 100%;
+}
+
+.statusdiv2
+{
+    width: 100%;
+    height: 65px;
+}
+
+.statusdiv2select
+{
+    width: 100%;
+    height: 100%;
+}
+
+.div2
+{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.date-and-menu
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.date1
+{
+    width: 80%;
+    height: 65%;
+    margin-top: 2%;
+    margin-left: 0px;
+}
+
+.hold-date-picker-icon
+{
+    width: 80%;
+    height: 50%;
+    margin-top: 2%;
+    margin-left: 0px;
+
+    .hold-date-picker-icon>mat-datepicker-toggle
+    {
+        position: inherit;
+    }
+}
+
+.boxes
+{
+    margin-top: 1.5%;
+    width: 50%;
+    height: 60px;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first
+{
+    width: 55%;
+    height: 60px;
+}
+
+.oneselect,.twoselect,.threeselect
+{
+    width: 100%;
+    height: 100%;
+}

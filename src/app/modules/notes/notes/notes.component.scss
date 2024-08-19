@@ -1,0 +1,28 @@
+.main
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5%;
+}
+
+.notebooks
+{
+    width: 20%;
+    height: 600px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+
+.notes
+{
+    width: 70%;
+    height: 600px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}

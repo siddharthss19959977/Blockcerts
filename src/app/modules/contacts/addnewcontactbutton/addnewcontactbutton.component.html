@@ -1,0 +1,71 @@
+<div class="main">
+  <button class="close" style="float: right;" color="primary" (click)="closeDialog()">X</button>
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" >
+    <h3 style="text-align: center;"><b>Add Contact</b></h3>
+
+    <mat-form-field>
+      <mat-label>FirstName</mat-label> 
+      <input matInput required="FirstName" name="fname" formControlName="FirstName">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>MiddleName</mat-label>
+      <input matInput required="MiddleName" name="mname" formControlName="MiddleName">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>LastName</mat-label>
+      <input matInput required="LastName" name="lname" formControlName="LastName">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input matInput required="Email" name="email" formControlName="Email">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Phone</mat-label>
+      <input matInput required="Phone" name="phone" formControlName="Phone">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Company</mat-label>
+      <input matInput required="Company" name="company" formControlName="Company">
+    </mat-form-field>
+
+    <mat-form-field style="width: 680px;">
+      <mat-label>Address</mat-label>
+      <textarea matInput placeholder="Enter details..." required="Address" formControlName="Address"></textarea>
+    </mat-form-field>
+  
+    <mat-form-field>
+      <mat-label>City or Town</mat-label>
+      <mat-select required="City" formControlName="CityorTown">
+          <mat-option selected>Select a city/town</mat-option>
+          <mat-option value="one">Bangalore</mat-option>
+          <mat-option value="two">Chennai</mat-option>
+          <mat-option value="three">Hyderabad</mat-option>
+          <mat-option value="four">Mumbai</mat-option>
+      </mat-select>
+    </mat-form-field>
+  
+    <mat-form-field>
+      <mat-label>State</mat-label>
+      <mat-select required="State" formControlName="State"> 
+        <mat-option selected>Select a state</mat-option>
+        <mat-option value="one">Karnataka</mat-option>
+        <mat-option value="two">Tamil Nadu</mat-option>
+        <mat-option value="three">Andhra Pradesh</mat-option>
+        <mat-option value="four">Maharashtra</mat-option>
+      </mat-select>
+    </mat-form-field>
+  
+    <mat-form-field>
+      <mat-label>Zipcode</mat-label>
+      <input matInput required="Zipcode" name="zipcode" formControlName="Zipcode">
+    </mat-form-field>
+
+    <button type="submit" class="add" mat-button style="margin-left: 300px;margin-right: 300px;font-size: medium;" color="primary"><b>Add</b></button>
+
+  </form>
+</div>

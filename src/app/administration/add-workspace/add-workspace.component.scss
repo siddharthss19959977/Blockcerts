@@ -1,0 +1,44 @@
+.main
+{
+    box-sizing: border-box;
+    width: 700px;
+    height: 350px;
+}
+
+mat-form-field
+{
+    width: 90%;
+}
+
+h3,mat-form-field
+{
+    margin-left: 20px;
+}
+
+.close
+{
+    cursor: pointer;
+    float: right;
+}
+
+.button
+{
+    position: absolute;
+    top: 87%;
+    left: 80%;
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 60px;
+}
+
+.ok
+{
+    cursor: pointer;
+}
+
+.cancel
+{
+   cursor: pointer;
+}
